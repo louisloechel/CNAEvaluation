@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,/players/v1/accounts/dummy:dummy.AnonymousUser/location,CatchResponseError('Failed to get current location: 404'),4
+POST,/players/v1/accounts/,HTTPError('404 Client Error: NOT FOUND for url: /players/v1/accounts/'),1
+GET,/auth/PublicCertificate,HTTPError('404 Client Error: NOT FOUND for url: /auth/PublicCertificate'),1
+GET,/players/v1/name/,CatchResponseError('User not found'),1
